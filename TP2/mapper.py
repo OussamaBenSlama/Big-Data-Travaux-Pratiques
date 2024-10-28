@@ -1,11 +1,12 @@
 import sys
- 
+
+
+zeyed = ['.', ',', '!', '?', ')', '(']
+
 for line in sys.stdin:
-    words = line.strip().split(' ')
-    for word in words :
+    words = line.strip().split()
+    for word in words:
         word = word.lower()
-        print(word , "\t" , 1 )
- 
-
-
-    
+        for p in zeyed:
+            word = word.replace(p, '')
+        print(word, "\t", 1)
