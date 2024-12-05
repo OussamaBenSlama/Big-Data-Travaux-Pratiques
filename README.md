@@ -10,6 +10,9 @@ Chaque TP est présenté sous forme de fichier PDF, avec une explication détail
 Les comptes rendus sont organisés par chapitre correspondant à chaque TP :
 
 1. **TP1** : Initiation à Hadoop.
+2. **TP2** : Initiation à Hadoop.
+3. **TP3** : Hadoop MAP/REDUCE.
+4. **TP4** : Bases de données NOSQL - MongoDB.
 
 
 ## Auteur
